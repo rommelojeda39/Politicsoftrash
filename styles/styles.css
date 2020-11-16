@@ -1,0 +1,189 @@
+body {
+    background-color: #f9f9f9;
+    opacity: 90%;
+}
+
+.background {
+    background-color: white;
+    padding: 15px;
+    width: 775px;
+    margin: auto;
+    display: table;
+}
+
+.wrapper {
+    display: flex;
+    margin: auto;
+    padding: 9px;
+}
+
+.wrapper2 {
+    display: flex;
+    margin: auto;
+    padding: 5px;
+}
+
+.main-wrapper {
+    margin: auto;
+    width: 650px;
+    display: table;
+    align-content: center;
+}
+
+h1, h5, h6 {
+    color: #161616;
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+}
+
+h2 {
+    color: #161616;
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+}
+
+h5 {
+    margin-top: -15px;
+}
+
+h3 {
+    text-align: center;
+    color: #black;
+}
+
+.data-info {
+    background-color: #White;
+    padding: 10px;
+}
+
+.photo {
+    text-align: center;
+    display: flex;
+    width: 850px;
+    margin: auto;
+}
+
+.images {
+    width: 110px;
+}
+
+.year {
+    width: 250px;
+}
+
+p.year {
+    font-size: 14px;
+    text-align: left;
+    margin: auto;
+    font-weight: bold;
+    color: #636363;
+    width: 250px;
+}
+
+.wrapper2>div {
+    margin: auto;
+}
+
+figcaption, figure {
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* Make sure that padding behaves as expected */
+* {
+    box-sizing: border-box;
+}
+
+/* Container for animal abuse data */
+.container {
+    width: auto;
+    display: flex;
+    /* Full width */
+    background-color: #f2f2f2;
+    /* Grey background */
+    height: 20px;
+    margin: auto;
+}
+
+.numbers {
+    text-align: right;
+    /* Right-align text */
+    padding-top: 5px;
+    /* Add top padding */
+    padding-bottom: 5px;
+    /* Add bottom padding */
+    color: black;
+    font-size: 13px;
+    font-weight: bolder;
+    /* White text color */
+    padding-right: 10px;
+}
+
+.thisyear {
+    width: 88%;
+    background-color: #f2a1a1;
+}
+
+.lastyear {
+    width: 72%;
+    background-color: #0db4b9;
+}
+
+.torture19 {
+    width: 9%;
+    background-color: #f2a1a1;
+}
+
+.torture20 {
+    width: 12%;
+    background-color: #0db4b9;
+}
+
+.noshelter19 {
+    width: 9%;
+    background-color: #f2a1a1;
+}
+
+.noshelter20 {
+    width: 9%;
+    background-color: #0db4b9;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+div, p {
+    font-size: 18px;
+}
+
+a:link {
+    color: #09bb9f;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #c79cc8;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f94b7d;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+/*** phone */
+@media only screen and (max-width: 400px) {
+    div, p {
+        font-size: 12px;
+    }
+}
